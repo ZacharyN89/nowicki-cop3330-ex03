@@ -20,7 +20,10 @@ Challenge
     Modify this program so that instead of prompting for quotes from the user, you create a structure that holds quotes and their associated attributions and then display all of the quotes using the format in the example. An array of maps would be a good choice.
 
 */
-
+/*
+ *  UCF COP3330 Summer 2021 Assignment 1 Solutions
+ *  Copyright 2021 first_name last_name
+ */
 import java.util.Scanner;
 
 public class ex03 {
@@ -28,12 +31,12 @@ public class ex03 {
         Scanner cursor = new Scanner(System.in);
 
 
-        System.out.print("What is the quote? ");
+        System.out.println("What is the quote? ");
         String quote = cursor.nextLine();
 
-        System.out.print("Who said it? ");
+        System.out.println("Who said it? ");
         String author = cursor.nextLine();
 
-        System.out.print(author + " says, \"" + quote + "\"");
+        System.out.println(author + " says, \"" + quote + "\"");
     }
 }
